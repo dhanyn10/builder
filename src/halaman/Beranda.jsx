@@ -1,118 +1,61 @@
 import React from 'react';
+//import Typekit from 'typekit';
 import {
-    //grid
     Container,
-    Row,
-    //card
     Card,
     CardHeader,
     CardBody,
-    Button
+    Row
 } from 'reactstrap';
 
 import './css/Beranda.css';
 
 class Beranda extends React.Component
 {
+    componentWillMount() {
+        const script = document.createElement("script");
+        script.src = "//cdn.jsdelivr.net/github-cards/latest/widget.js";
+        document.body.appendChild(script);
+    }
     render()
     {
         return(
             <div>
                 <Container fluid>
                     <Row>
-                        <div className="col-md-4">
-                            <Card>
-                                <CardHeader className="bg-secondary text-white">
-                                    Minini Framework
-                                </CardHeader>
+                        <div className="col-lg-4">
+                            <div
+                                className="github-card"
+                                data-github="dhanyn10"
+                                data-width="400"
+                                data-height="319"
+                                data-theme="medium">
+                            </div>
+                        </div>
+                        <div className="col-lg-8">
+                            <Card className="border-secondary">
+                                <CardHeader className="bg-secondary text-white">Minini Framework</CardHeader>
                                 <CardBody>
-                                    Simple CSS Framework, similar to mini.css and miligram.css
+                                    Simple and small css framework, similar to miligram.css. 
+                                    This framework pic color for elements from flatuicolors.com
                                     <hr/>
-                                    <div className="btn-group">
-                                        <Button className="btn btn-sm btn-danger">Developed</Button>
-                                        <Button className="btn btn-sm btn-success">Open Source</Button>
-                                        <Button className="btn btn-sm btn-success">Public</Button>
-                                    </div>
+                                    <a className="btn btn-success btn-sm" target="_blank" href="https://github.com/dhanyn10/minini">Check to Github</a>
                                 </CardBody>
                             </Card>
-                        </div>
-                        <div className="col-md-4">
-                            <Card>
-                                <CardHeader className="bg-secondary text-white">
-                                    Blogger Templates
-                                </CardHeader>
+                            <Card className="border-secondary">
+                                <CardHeader className="bg-secondary text-white">Blogger Templates</CardHeader>
                                 <CardBody>
-                                    Collection of Templates for blogspot blogger
+                                    Templates for blogspot blogger
                                     <hr/>
-                                    <div className="btn-group">
-                                        <Button className="btn btn-sm btn-secondary">Developed</Button>
-                                        <Button className="btn btn-sm btn-success">Open Source</Button>
-                                        <Button className="btn btn-sm btn-success">Public</Button>
-                                    </div>
+                                    <a className="btn btn-success btn-sm" target="_blank" href="https://github.com/dhanyn10/blogger-templates">Check to Github</a>
                                 </CardBody>
                             </Card>
-                        </div>
-                        <div className="col-md-4">
-                            <Card>
-                                <CardHeader className="bg-secondary text-white">
-                                    Alfa
-                                </CardHeader>
+                            <Card className="border-secondary">
+                                <CardHeader className="bg-secondary text-white">Simple chat SocketIO</CardHeader>
                                 <CardBody>
-                                    Online CV maker for everyone
+                                    Simpe example realtime chat web based application with SocketIO
                                     <hr/>
-                                    <div className="btn-group">
-                                        <Button className="btn btn-sm btn-danger">Developed</Button>
-                                        <Button className="btn btn-sm btn-danger">Closed Source</Button>
-                                        <Button className="btn btn-sm btn-secondary">Private</Button>
-                                    </div>
-                                </CardBody>
-                            </Card>
-                        </div>
-                        <div className="col-md-4">
-                            <Card>
-                                <CardHeader className="bg-secondary text-white">
-                                    Laravel google login
-                                </CardHeader>
-                                <CardBody>
-                                    Simple implementation third party service login with google
-                                    <hr/>
-                                    <div className="btn-group">
-                                        <Button className="btn btn-sm btn-success">ready</Button>
-                                        <Button className="btn btn-sm btn-success">Open Source</Button>
-                                        <Button className="btn btn-sm btn-success">public</Button>
-                                    </div>
-                                </CardBody>
-                            </Card>
-                        </div>
-                        <div className="col-md-4">
-                            <Card>
-                                <CardHeader className="bg-secondary text-white">
-                                    Simple chat SocketIO
-                                </CardHeader>
-                                <CardBody>
-                                    simple chat using socket.io, with several effects 
-                                    <hr/>
-                                    <div className="btn-group">
-                                        <Button className="btn btn-sm btn-success">ready</Button>
-                                        <Button className="btn btn-sm btn-success">Open Source</Button>
-                                        <Button className="btn btn-sm btn-success">public</Button>
-                                    </div>
-                                </CardBody>
-                            </Card>
-                        </div>
-                        <div className="col-md-4">
-                            <Card>
-                                <CardHeader className="bg-secondary text-white">
-                                    MatematikaJS
-                                </CardHeader>
-                                <CardBody>
-                                    Opensource Javascript Library that allows user in client side to make calculation 
-                                    <hr/>
-                                    <div className="btn-group">
-                                        <Button className="btn btn-sm btn-secondary">developed</Button>
-                                        <Button className="btn btn-sm btn-success">Open Source</Button>
-                                        <Button className="btn btn-sm btn-success">public</Button>
-                                    </div>
+                                        <a className="btn btn-success btn-sm" target="_blank" href="https://github.com/dhanyn10/simple-chat-socketio">Check to Github</a> | <a className="btn btn-outline-secondary btn-sm" target="_blank" href="https://d-chat.herokuapp.com/">Test it</a>
                                 </CardBody>
                             </Card>
                         </div>
