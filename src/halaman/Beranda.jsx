@@ -39,7 +39,7 @@ class Beranda extends React.Component
                                     Simple and small css framework, similar to miligram.css. 
                                     This framework pic color for elements from flatuicolors.com
                                     <hr/>
-                                    <a className="btn btn-success btn-sm" target="_blank" href="https://github.com/dhanyn10/minini">Check to Github</a>
+                                    <a className="btn btn-success btn-sm" target="_blank" href="https://github.com/dhanyn10/minini">Check to Github</a> | <a className="btn btn-outline-secondary btn-sm" target="_blank" href="">Test It</a>
                                 </CardBody>
                             </Card>
                             <Card className="border-secondary">
@@ -55,7 +55,7 @@ class Beranda extends React.Component
                                 <CardBody>
                                     Simpe example realtime chat web based application with SocketIO
                                     <hr/>
-                                        <a className="btn btn-success btn-sm" target="_blank" href="https://github.com/dhanyn10/simple-chat-socketio">Check to Github</a> | <a className="btn btn-outline-secondary btn-sm" target="_blank" href="https://d-chat.herokuapp.com/">Test it</a>
+                                    <a className="btn btn-success btn-sm" target="_blank" href="https://github.com/dhanyn10/simple-chat-socketio">Check to Github</a> | <a className="btn btn-outline-secondary btn-sm" target="_blank" href="https://d-chat.herokuapp.com/">Test it</a>
                                 </CardBody>
                             </Card>
                         </div>
