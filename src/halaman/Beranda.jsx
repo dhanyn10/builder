@@ -9,6 +9,7 @@ import {
 } from 'reactstrap';
 
 import './css/Beranda.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 class Beranda extends React.Component
 {

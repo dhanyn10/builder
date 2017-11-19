@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import {
-    Container, Row, Col
-} from 'reactstrap';
-
-import {
     BrowserRouter
 } from 'react-router-dom';
 
@@ -25,13 +21,7 @@ class App extends Component {
                     <meta charSet="utf-8"/>
                 </Helmet>
                 <Navigasi/>
-                <Container fluid>
-                    <Row>
-                        <Col md="12">
-                            <Komponen/>
-                        </Col>
-                    </Row>
-                </Container>
+                <Komponen/>
             </div>
         </BrowserRouter>
     );

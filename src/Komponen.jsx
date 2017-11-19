@@ -2,8 +2,12 @@ import React from 'react';
 import {
     Route
 } from 'react-router-dom';
+
+import {
+    Container, Row, Col
+} from 'reactstrap';
+
 import Beranda from './halaman/Beranda.jsx';
-import Bootstrap from './halaman/Bootstrap.jsx';
 
 class Komponen extends React.Component
 {
@@ -11,8 +15,7 @@ class Komponen extends React.Component
     {
         return(
             <div>
-                <Bootstrap/>
-                <Route exact path="/" component={Beranda}/>
+                <Route path="/" component={Beranda}/>
             </div>
         );
     }
