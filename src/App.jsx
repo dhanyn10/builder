@@ -8,7 +8,6 @@ import {
     Helmet
 } from 'react-helmet';
 
-import Sidebar from './Sidebar.jsx';
 import Komponen from './Komponen.jsx';
 
 class App extends Component {
