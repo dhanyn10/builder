@@ -7,7 +7,7 @@
     "babel-preset-env": "1.7.0",
     "bootstrap": "4.2.1",
     "jquery": "3.3.1",
-    "minini": "0.1.0",
+    "minini": "1.0.0",
     "popper.js": "1.14.6",
     "react": "15.6.2",
     "react-addons-css-transition-group": "15.6.2",
