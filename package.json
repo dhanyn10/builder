@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "babel-preset-env": "1.7.0",
-    "bootstrap": "4.2.1",
+    "bootstrap": "4.3.1",
     "jquery": "3.3.1",
     "minini": "0.1.0",
     "popper.js": "1.14.6",
