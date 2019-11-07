@@ -20,7 +20,7 @@
     "reactstrap": "5.0.0"
   },
   "devDependencies": {
-    "react-scripts": "1.1.5"
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
